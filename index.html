@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font cdn -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href= "main.css">
+    <!-- javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src= 'main.js'></script> 
+    
+    <!-- animate.style cdn -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
+</head>
+  <body>
+    
+      <!-- <img class="skycolor" src="skyblue.jpg" alt="" /> -->
+    </div>
+    <h1>Weather App</h1>
+    <form onsubmit="getWeather(); return false">
+      <label for="cityName"></label>
+      <input type="text" name="cityName"id="cityName"placeholder="Enter Here Your City Name"/>
+      <br />
+      <button class="sbmt" type="submit">Get Weather</button>
+      <h2 id="now"></h2>
+    </form>
+    
+    <div id="image"></div>
+    <div id="content">
+    <p id="country"></p>
+    <p id="sky"></p>
+    <p id="humidity"></p>
+    <p id="wind"></p>
+    <p id="min-temp"></p>
+    <p id="max-temp"></p>
+    <p id="feels_like"></p>
+  </div>
+  
+  
+  
+  
+  
+  </body>
+</html>

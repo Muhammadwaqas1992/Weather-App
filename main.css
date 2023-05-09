@@ -1,0 +1,127 @@
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    /* background-image: linear-gradient(blue,orange); */
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+    font-size: 6rem;
+    margin-left: 50rem;
+    color: white;
+    margin-top: -1.5rem;
+}
+
+#cityName{
+    width: 50rem;
+    height: 4rem;
+    border-radius: 30rem;
+    font-size: 4rem;
+    margin-left: 43rem;
+    margin-top: -3rem;
+    display: flex;
+}
+
+.sbmt{
+    border-radius: 20%;
+    height: 5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    margin-left: 62rem;
+    margin-top: rem;
+    background-color: green;
+    font-weight: 600;
+    color: white;
+
+}
+.sbmt:hover{
+    color: blue;
+    background-color: brown;
+    transition: 1s ease; 
+
+}
+#now{
+    font-size: 3rem;
+    margin-left: 48rem;
+    color: white;
+}
+#image{
+    margin-left: 61rem;
+    margin-top: -5rem;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+    row-gap: 1rem;
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+
+}
+
+@media(max-width:998px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media(max-width:425px) {
+    html {
+        font-size: 20%;
+        
+    
+    }
+    #image{
+        margin-left: 53rem;
+    
+
+}
+
+@media(max-width:375px) {
+    html {
+        font-size: 16.5%;
+    }
+        #image{
+            margin-left: 50rem;
+            margin-top: -5rem;
+        }
+    
+}
+
+@media(max-width:320px) {
+    html {
+        font-size: 12%;
+    }
+    #image{
+        margin-left: 55rem;
+        margin-top: -5rem;
+    }
+    .sbmt{
+        margin-left: 75rem;
+    }
+    #cityName{
+        margin-left: 54rem;
+    }
+    h1{
+        margin-left: 62rem;
+    }
+    #now{
+        margin-left: 60rem;
+    }
+}
+
+}
